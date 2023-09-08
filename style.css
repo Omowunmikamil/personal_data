@@ -1,16 +1,109 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
+
 body {
-    font-family: 'Roboto', sans-serif;
-    background-color: #f5f5f5;
+    font-family: Roboto, sans-serif;
+    background-color: #eaffe6;
+}
+
+header {
+    background-color: #eaffe6;
+    box-shadow: 4px 2px 4px #dededed4;
+    text-align: center;
+    padding: 1rem;
 }
 h1 {
-    text-align: center;
-    font-size: 50px;
+    font-size: 2.5rem;
     font-weight: 800;
-    margin: 20px 0;
+    margin: 0;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
     padding: 10px;
+    border: 1px solid #dedededb;
+    border-radius: 5px;
+    margin-top: 40px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 1.7rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.one {
+    margin-right: 20px;
+}
+
+.one img {
+    width: 300px;
+    height: 300px;
+    border-radius: 10%;
+    box-shadow: 1px 1px -1px #b6b6b6d4;
+}
+
+.two {
+    margin-left: 15px;
+}
+
+.two h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+    margin-top: 40%;
+    margin-right: 10%;
+}
+
+.two h4 {
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.two h4 span {
+    letter-spacing: 4px;
+}
+
+.two p {
+    font-size: 0.9rem;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+.two p a {
+    color: #333;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.two p a:hover {
+    color: #198903;
+}
+
+footer {
+    background-color: #eaffe6;
+    box-shadow: 4px -2px 4px #dededed4;
+    text-align: center;
+    margin-bottom: 0;
+}
+footer p {
+    font-size: 0.8rem;
+    font-weight: 300;
+    padding-top: 30px;
 }
