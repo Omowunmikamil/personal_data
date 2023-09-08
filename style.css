@@ -93,7 +93,7 @@ h2 {
 }
 
 .two p a:hover {
-    color: #198903;
+    color: #20c000;
 }
 
 footer {
@@ -106,4 +106,41 @@ footer p {
     font-size: 0.8rem;
     font-weight: 300;
     padding-top: 30px;
+}
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 2rem;
+    }
+    
+    .row {
+        flex-direction: column;
+    }
+
+    .one {
+        margin-right: 0;
+        text-align: center;
+        align-items: center;
+    }
+
+    .two {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .two h3 {
+        margin-top: 20px;
+        font-size: 30px;
+        margin-left: 9%;
+        letter-spacing: 2px;
+    }
+
+    footer {
+        height: 50px;
+    }
+
+    footer p {
+        padding: 15px 0;
+    }
 }
