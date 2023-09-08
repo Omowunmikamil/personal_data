@@ -31,7 +31,7 @@ section {
     padding: 10px;
     border: 1px solid #dedededb;
     border-radius: 5px;
-    margin-top: 40px;
+    margin-top: 30px;
 }
 
 h2 {
@@ -105,12 +105,13 @@ footer {
     background-color: #eaffe6;
     box-shadow: 4px -2px 4px #dededed4;
     text-align: center;
-    margin-bottom: 0;
+    margin-bottom: 0px;
 }
 footer p {
     font-size: 0.8rem;
     font-weight: 300;
-    padding-top: 30px;
+    padding: 35px 0;
+
 }
 
 /* Responsive */
@@ -128,8 +129,13 @@ footer p {
         font-size: 0.8rem;
     }
 
+    footer {
+        height: 50px;
+        margin-bottom: 0px;
+    }
+
     footer p {
-        padding: 15px 0;
+        padding: 20px 0;
     }
     
 }
@@ -168,6 +174,7 @@ footer p {
 
     footer {
         height: 50px;
+        margin-bottom: 0px;
     }
 
     footer p {
