@@ -104,7 +104,9 @@ h2 {
 footer {
     background-color: #eaffe6;
     text-align: center;
-    margin-bottom: 0px;
+    box-shadow: 2px -1px 2px #dededed4;
+    height: 60px;
+    margin-bottom: 0;
 }
 footer p {
     font-size: 0.8rem;
@@ -129,8 +131,8 @@ footer p {
     }
 
     footer {
-        height: 50px;
-        margin-bottom: 0px;
+        height: 60px;
+        margin-bottom: 0;
     }
 
     footer p {
@@ -172,11 +174,11 @@ footer p {
     }
 
     footer {
-        height: 50px;
-        margin-bottom: 0px;
+        height: 60px;
+        margin-bottom: 0;
     }
 
     footer p {
-        padding: 15px 0;
+        padding: 20px 0;
     }
 }
